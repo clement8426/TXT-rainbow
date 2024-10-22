@@ -1,0 +1,151 @@
+{
+  "name": "Colored Data",
+  "type": "dark",
+  "colors": {},
+  "tokenColors": [
+    {
+      "scope": "entity.column.colored-data.col1",
+      "settings": { "foreground": "#FF5555" } // Rouge vif
+    },
+    {
+      "scope": "entity.column.colored-data.col2",
+      "settings": { "foreground": "#55FF55" } // Vert vif
+    },
+    {
+      "scope": "entity.column.colored-data.col3",
+      "settings": { "foreground": "#5555FF" } // Bleu vif
+    },
+    {
+      "scope": "entity.column.colored-data.col4",
+      "settings": { "foreground": "#FFFF55" } // Jaune vif
+    },
+    {
+      "scope": "entity.column.colored-data.col5",
+      "settings": { "foreground": "#FF55FF" } // Magenta vif
+    },
+    {
+      "scope": "entity.column.colored-data.col6",
+      "settings": { "foreground": "#55FFFF" } // Cyan vif
+    },
+    {
+      "scope": "entity.column.colored-data.col7",
+      "settings": { "foreground": "#FFAA00" } // Orange vif
+    },
+    {
+      "scope": "entity.column.colored-data.col8",
+      "settings": { "foreground": "#FF77AA" } // Rose vif
+    },
+    {
+      "scope": "entity.column.colored-data.col9",
+      "settings": { "foreground": "#AA55FF" } // Violet vif
+    },
+    {
+      "scope": "entity.column.colored-data.col10",
+      "settings": { "foreground": "#FFDD55" } // Doré vif
+    },
+    {
+      "scope": "entity.separator.colored-data",
+      "settings": { "foreground": "#FFFFFF" } // Blanc pour les points-virgules
+    },
+    {
+      "scope": "entity.column.colored-data.col11",
+      "settings": { "foreground": "#FF3344" } // Rouge vif
+    },
+    {
+      "scope": "entity.column.colored-data.col12",
+      "settings": { "foreground": "#33FF44" } // Vert citron vif
+    },
+    {
+      "scope": "entity.column.colored-data.col13",
+      "settings": { "foreground": "#3377FF" } // Bleu ciel vif
+    },
+    {
+      "scope": "entity.column.colored-data.col14",
+      "settings": { "foreground": "#FFEE33" } // Jaune vif
+    },
+    {
+      "scope": "entity.column.colored-data.col15",
+      "settings": { "foreground": "#FF33CC" } // Rose fuchsia vif
+    },
+    {
+      "scope": "entity.column.colored-data.col16",
+      "settings": { "foreground": "#33FFDD" } // Cyan lumineux
+    },
+    {
+      "scope": "entity.column.colored-data.col17",
+      "settings": { "foreground": "#FF9900" } // Orange vif
+    },
+    {
+      "scope": "entity.column.colored-data.col18",
+      "settings": { "foreground": "#33CC33" } // Vert vif
+    },
+    {
+      "scope": "entity.column.colored-data.col19",
+      "settings": { "foreground": "#66FF66" } // Vert lime
+    },
+    {
+      "scope": "entity.column.colored-data.col20",
+      "settings": { "foreground": "#FF3366" } // Rose rouge vif
+    },
+    {
+      "scope": "entity.column.colored-data.col21",
+      "settings": { "foreground": "#3399FF" } // Bleu clair vif
+    },
+    {
+      "scope": "entity.column.colored-data.col22",
+      "settings": { "foreground": "#FFAAFF" } // Rose pastel vif
+    },
+    {
+      "scope": "entity.column.colored-data.col23",
+      "settings": { "foreground": "#FF7744" } // Rouge orangé vif
+    },
+    {
+      "scope": "entity.column.colored-data.col24",
+      "settings": { "foreground": "#33FFAA" } // Vert turquoise vif
+    },
+    {
+      "scope": "entity.column.colored-data.col25",
+      "settings": { "foreground": "#FF4444" } // Rouge vif
+    },
+    {
+      "scope": "entity.column.colored-data.col26",
+      "settings": { "foreground": "#FFDD00" } // Jaune doré vif
+    },
+    {
+      "scope": "entity.column.colored-data.col27",
+      "settings": { "foreground": "#33FF66" } // Vert lime vif
+    },
+    {
+      "scope": "entity.column.colored-data.col28",
+      "settings": { "foreground": "#9933FF" } // Violet clair vif
+    },
+    {
+      "scope": "entity.column.colored-data.col29",
+      "settings": { "foreground": "#FF66CC" } // Rose vif
+    },
+    {
+      "scope": "entity.column.colored-data.col30",
+      "settings": { "foreground": "#00FF99" } // Vert menthe vif
+    },
+    {
+      "scope": "entity.column.colored-data.col31",
+      "settings": { "foreground": "#FFCC33" } // Orange doré vif
+    },
+    {
+      "scope": "entity.column.colored-data.col32",
+      "settings": { "foreground": "#FF99FF" } // Rose magenta vif
+    },
+    {
+      "scope": "entity.column.colored-data.col33",
+      "settings": { "foreground": "#66CCFF" } // Bleu ciel clair vif
+    },
+    {
+      "scope": "entity.column.colored-data.col34",
+      "settings": { "foreground": "#00FFCC" } // Cyan vif
+    },
+    {
+      "scope": "entity.column.colored-data.col35",
+      "settings": { "foreground": "#FF00FF" } // Magenta vif
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "scopeName": "source.colored-data",
+  "patterns": [
+    {
+      "name": "entity.column.colored-data.col1",
+      "match": "^[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col2",
+      "match": "(?<=^[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col3",
+      "match": "(?<=^[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col4",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col5",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col6",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col7",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col8",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col9",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col10",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col11",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col12",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col13",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col14",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col15",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col16",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col17",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col18",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col19",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col20",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.column.colored-data.col21",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col22",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col23",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col24",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col25",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col26",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col27",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col28",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col29",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col30",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col31",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col32",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col33",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col34",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    },
+    {
+      "name": "entity.separator.colored-data",
+      "match": ";"
+    },
+    {
+      "name": "entity.column.colored-data.col35",
+      "match": "(?<=^[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;[^;]*;)[^;]*"
+    }
+  ]
+}
