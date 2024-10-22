@@ -1,72 +1,53 @@
-# txt-rainbow-col README
+# TXT Rainbow Col
 
-This is the README for your extension "txt-rainbow-col". After writing up a brief description, we recommend including the following sections.
+TXT Rainbow Col est une extension Visual Studio Code qui permet de colorer les colonnes de fichiers texte où les colonnes sont séparées par des points-virgules (`;`). Elle améliore la lisibilité en attribuant des couleurs différentes à chaque colonne.
 
-## Features
+## Fonctionnalités
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Coloration automatique des colonnes basées sur la séparation par `;`.
+- Différentes couleurs pour chaque colonne, facilitant la lecture et l'analyse des fichiers texte structurés.
+- Prise en charge des fichiers `.txt` avec des colonnes multiples, même si certaines colonnes sont vides.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation et Lancement de l'Extension en Local
 
-\!\[feature X\]\(images/feature-x.png\)
+1. **Clonez le dépôt du projet sur votre machine locale :**
+    ```bash
+    git clone https://github.com/votre-repo/txt-rainbow-col.git
+    ```
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+2. **Ouvrez le projet dans Visual Studio Code :**
+    ```bash
+    cd txt-rainbow-col
+    code .
+    ```
 
-## Requirements
+3. **Installez les dépendances nécessaires :**
+    ```bash
+    npm install
+    ```
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+4. **Compilez le projet :**
+    ```bash
+    npm run compile
+    ```
 
-## Extension Settings
+5. **Lancez l'extension en mode de développement :**
+    - **Sur Windows/Linux** : Appuyez sur `F5` pour démarrer une nouvelle instance de Visual Studio Code avec l'extension activée.
+    - **Sur macOS** : Utilisez `Fn + F5` si la touche F5 est mappée sur une fonction système.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+   - Cela ouvrira une nouvelle fenêtre de Visual Studio Code avec votre extension activée.
+   - Vous pouvez tester l'extension directement dans cette nouvelle instance de VS Code.
 
-For example:
+### Tester et Utiliser
 
-This extension contributes the following settings:
+1. **Ouvrir un fichier `.txt` contenant des colonnes séparées par des points-virgules (`;`) dans la nouvelle instance de VS Code.**
+2. **L'extension appliquera automatiquement les couleurs à chaque colonne.**
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### Raccourcis Clavier Importants
 
-## Known Issues
+| Action                          | Windows/Linux | macOS        |
+|---------------------------------|---------------|--------------|
+| Ouvrir le panneau d'extensions  | `Ctrl + Shift + X` | `Cmd + Shift + X` |
+| Lancer l'extension en debug     | `F5`          | `Fn + F5`    |
+| Installer à partir de `.vsix`   | `Ctrl + Shift + X` puis `...` et **"Installer à partir de VSIX..."** | `Cmd + Shift + X` puis `...` et **"Installer à partir de VSIX..."** |
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-# TXT-rainbow
